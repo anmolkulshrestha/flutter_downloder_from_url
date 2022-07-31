@@ -55,7 +55,7 @@ print("hello");
         print("hello");
       var taskid=  await FlutterDownloader.enqueue(
 
-url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+url: "https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg",
         savedDir: externalDir!.path,
 
           showNotification: true, // show download progress in status bar (for Android)

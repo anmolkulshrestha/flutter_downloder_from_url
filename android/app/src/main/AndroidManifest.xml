@@ -2,7 +2,9 @@
     package="com.example.untitled26">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
+       android:networkSecurityConfig="@xml/network_security_config"
         android:label="untitled26"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
